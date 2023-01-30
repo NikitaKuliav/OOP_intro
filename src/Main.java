@@ -7,13 +7,15 @@ public class Main {
         Auto kia = new Auto("KIA", "Sportage 4-го поколения", 3.0, "Red", 2018, "South Korea");
         Auto hyundai = new Auto("Hyundai", "Avante", 1.6, "Orange", 2016, "South Korea");
 
+        Auto test = new Auto("", null, 0, "", 0, null);
+
         System.out.println(ladaGranta);
         System.out.println(audiA8);
         System.out.println(bmwZ8);
         System.out.println(kia);
         System.out.println(hyundai);
 
-
+        System.out.println(test);
 
     }
 }
